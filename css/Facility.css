@@ -1,0 +1,127 @@
+/* 標題字型 font-family: 'Cherry Bomb One', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Cherry+Bomb+One&family=Handjet&family=Noto+Sans+TC&family=Ruwudu&display=swap');
+
+/* 內文字型  font-family: 'Noto Sans TC', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Handjet&family=Noto+Sans+TC&family=Ruwudu&display=swap');
+
+/* .banner {
+    width: 100%;
+    height: 150px;
+} */
+
+
+.containerPic {
+    display: flex;
+}
+
+.posterRestaurant,
+.posterGiftShop {
+    width: 50%;
+    height: 1000px;
+}
+
+.posterRestaurantOcclusion {
+    position: absolute;
+    width: 50%;
+    height: 1000px;
+    background-color: white;
+    opacity: 0.4;
+}
+
+.posterGiftShopOcclusion {
+    position: absolute;
+    width: 50%;
+    height: 1000px;
+    background-color: white;
+    opacity: 0.4;
+}
+
+.posterRestaurant img {
+    width: 100%;
+    height: 100%;
+}
+
+.posterGiftShop img {
+    width: 100%;
+    height: 100%;
+}
+
+.posterRestaurant h1 {
+    font-size: 64px;
+    font-family: 'Cherry Bomb One', cursive;
+    text-align: right;
+    bottom: 200px;
+    left: 50px;
+    position: absolute;
+    color: white;
+}
+
+.posterGiftShop h1 {
+    font-size: 64px;
+    font-family: 'Cherry Bomb One', cursive;
+    bottom: 200px;
+    right: 330px;
+    position: absolute;
+    color: white;
+}
+
+.posterGiftShop p {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    position: relative;
+    bottom: 170px;
+    background-color: rgba(12, 21, 78, 0.5);
+    line-height: 1.5em;
+    padding-right: 10px;
+}
+
+.posterRestaurant p {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 218px;
+    background-color: rgba(12, 21, 78, 0.5);
+    line-height: 1.5em;
+    padding-left: 10px;
+}
+
+/*=========企鵝=========*/
+.penguin {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    /* height: 50vh; */
+    font-size: 0;
+}
+
+.penguinUpright {
+    position: absolute;
+    bottom: 50px;
+    width: 500px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 3;
+}
+
+.penguinLeft {
+    position: absolute;
+    bottom: 50px;
+    width: 500px;
+    left: 40%;
+    transform: translate(-50%);
+    z-index: 2;
+    opacity: 0;
+}
+
+.penguinRight {
+    position: absolute;
+    bottom: 50px;
+    width: 500px;
+    left: 60%;
+    transform: translate(-50%);
+    z-index: 1;
+    opacity: 0;
+}

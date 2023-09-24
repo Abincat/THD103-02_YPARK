@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Handjet&family=Noto+Sans+TC&family=Ruwudu&display=swap');
+
+
+header {
+    width: 100%;
+    background-color: rgb(51, 65, 123);
+    position: sticky;
+    z-index: 12;
+}
+
+.top_logo {
+    width: 60px;
+}
+
+.hdNav_list {
+    text-decoration: none;
+    /* color: #f69000; */
+    color: rgb(255, 255, 255);
+    /* text-shadow: 0 2px 0.2em rgb(5, 18, 53); */
+
+}
+
+/* p.en_list:hover, */
+/*中文特效顯示不出來*/
+/* p.ce_list:hover {
+    border: 1px solid yellow;
+} */
+
+ul li {
+    display: inline-block;
+}
+
+ul li a p.cn_list {
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+ul li a p.en_list {
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+ul {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}

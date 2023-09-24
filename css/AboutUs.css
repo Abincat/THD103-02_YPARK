@@ -1,0 +1,233 @@
+/* 標題字型 font-family: 'Cherry Bomb One', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Cherry+Bomb+One&family=Handjet&family=Noto+Sans+TC&family=Ruwudu&display=swap');
+
+/* 內文字型  font-family: 'Noto Sans TC', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Handjet&family=Noto+Sans+TC&family=Ruwudu&display=swap');
+
+
+.content {
+    background-image: url("../img/關於我們(上).png"), linear-gradient(to top, #ecf6f6 0%, rgb(24, 70, 117)30%, rgb(4, 14, 24) 70%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+
+}
+
+.beach {
+    background-image: url("../img/關於我們(下).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    bottom: 0;
+    display: flex;
+    position: relative;
+    background-position: center bottom;
+}
+
+.whale {
+    width: 400px;
+    position: absolute;
+    right: 17%;
+    top: 7%;
+}
+
+/*=========上面區域=========*/
+
+.topIntroduce {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    padding: 100px 30px 0 30px;
+}
+
+.topIntroduce h1 {
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 160px;
+    color: rgb(246, 144, 0);
+    text-shadow: -10px 10px rgb(16, 47, 78);
+    margin-bottom: 80px;
+    transform-origin: bottom center;
+    animation: titleSwim 3s ease infinite alternate;
+}
+
+.topIntroduce p {
+    margin-top: 180px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(16, 47, 78);
+    margin-left: 50px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 225, 255, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.topIntroduceBlock {
+    display: inline-block;
+}
+
+.topIntroduceBlock div {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: url("../img/關於我們-照片(上).jpg");
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+/*=========下面區域=========*/
+
+.bottomIntroduce {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    padding: 100px 30px 0 30px;
+}
+
+.bottomIntroduce h1 {
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 120px;
+    color: rgb(246, 144, 0);
+    text-shadow: 7px 5px rgb(16, 47, 78);
+    margin-bottom: 100px;
+    text-align: right;
+    transform-origin: bottom center;
+    animation: titleSwim 3s ease infinite alternate;
+}
+
+.bottomIntroduce p {
+    margin-top: 180px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(16, 47, 78);
+    margin-right: -40px;
+    background-color: rgba(255, 225, 255, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.bottomIntroduceBlock {
+    display: inline-block;
+}
+
+.bottomIntroduceBlock div {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: url("../img/關於我們-照片(下).jpg");
+    margin-left: 150px;
+    background-size: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes titleSwim {
+    from {
+        transform: rotate(-5deg);
+    }
+
+    to {
+        transform: rotate(5deg);
+    }
+}
+
+/*=========花園鰻=========*/
+.gardenEel {
+    margin: 270px auto;
+}
+
+/*-------長鰻魚--------*/
+.gardenEel_A,
+.gardenEel_D,
+.gardenEel_F,
+.gardenEel_G,
+.gardenEel_H {
+    width: 100px;
+}
+
+/*-------短鰻魚--------*/
+.gardenEel_B,
+.gardenEel_C,
+.gardenEel_E,
+.gardenEel_I {
+    width: 60px;
+}
+
+/*-------調整定位/搖擺動畫--------*/
+.gardenEel_A {
+    position: relative;
+    right: 30px;
+    top: 10px;
+    transform-origin: bottom center;
+    animation: swim 2s ease infinite alternate;
+
+}
+
+.gardenEel_B {
+    position: relative;
+    top: 70px;
+    transform-origin: bottom center;
+    animation: swim 4s ease infinite alternate;
+}
+
+.gardenEel_C {
+    position: relative;
+    left: 50px;
+    transform-origin: bottom center;
+    animation: swim 1.5s ease infinite alternate;
+
+}
+
+.gardenEel_D {
+    position: relative;
+    bottom: 10px;
+    transform-origin: bottom center;
+    animation: swim 2.5s ease infinite alternate;
+}
+
+.gardenEel_E {
+    position: relative;
+    left: 30px;
+    top: 40px;
+    transform-origin: bottom center;
+    animation: swim 2s ease infinite alternate;
+}
+
+.gardenEel_F {
+    position: relative;
+    bottom: 35px;
+    transform-origin: bottom center;
+    animation: swim 4s ease infinite alternate;
+
+}
+
+.gardenEel_G {
+    position: relative;
+    top: 50px;
+    left: 30px;
+    transform-origin: bottom center;
+    animation: swim 2.5s ease infinite alternate;
+}
+
+.gardenEel_H {
+    position: relative;
+    bottom: 20px;
+    transform-origin: bottom center;
+    animation: swim 3s ease infinite alternate;
+}
+
+.gardenEel_I {
+    position: relative;
+    transform-origin: bottom center;
+    animation: swim 2s ease infinite alternate;
+}
+
+@keyframes swim {
+    from {
+        transform: rotate(-10deg);
+    }
+
+    to {
+        transform: rotate(10deg);
+    }
+}
