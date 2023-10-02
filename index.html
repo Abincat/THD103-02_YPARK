@@ -12,6 +12,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Handjet&family=Noto+Sans+TC&family=Ruwudu&display=swap"
         rel="stylesheet">
+    <link rel="icon" href="./img/favicon.ico" type="image/icon">
+    <script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>
+    <script src="./js/index.js"></script>
+    <link href="https://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet">
 
 </head>
 
@@ -39,7 +44,7 @@
                 </li>
                 <li>
                     <a class="hdBack_frontPage" href="./index.html">
-                        <img class="top_logo" src="./img/魟魚LOGO-下.png">
+                        <img class="top_logo" src="./img/LOGOheader.png">
                     </a>
                 </li>
                 <li>
@@ -66,18 +71,20 @@
 
     <!--------------------banner----------------------->
     <div class="banner">
-        <img class="baseMap" src="./img/首頁大版(改).png" alt="banner背景(暫)">
+        <div class="baseMap">
+            <h1>Ypark</h1>
+            <p>Explore the unknown treasures of the distant ocean</p>
+        </div>
         <div class="container">
             <ul id="showy">
-                <li class="floatFishRight"><img src="./img/右光.png" alt=""></li>
-                <li class="floatFishLeft"><img src="./img/左光.png" alt=""></li>
+                <li class="floatFishRight"><img src="./img/rightLight.png" alt=""></li>
+                <li class="floatFishLeft"><img src="./img/leftLight.png" alt=""></li>
                 <!-- <li class="floatFishA"><img src="./img/fishA.png" alt=""></li>
                 <li class="floatFishB"><img src="./img/fishB.png" alt=""></li>
                 <li class="floatFishC"><img src="./img/fishC.png" alt=""></li> -->
             </ul>
         </div>
 
-        <h1 class="ypark">Ypark</h1>
         <div class="bubble">
             <img src="./img/bubble.png">
             <img src="./img/bubble.png">
@@ -91,54 +98,66 @@
             <img src="./img/bubble.png">
             <img src="./img/bubble.png">
         </div>
-        <p class="slogan">Explore the unknown treasures of the distant ocean</p>
+
     </div>
     <!--------------------content----------------------->
-    <div class="content">
-        <div class="contentLeft">
-            <h5>票種</h5>
-            <ul class="ticketType">
-                <li class="adult">
-                    <div>
-                        <p>成人票(18歲以上)</p>
-                        <p>Only for those aged 18 and above</p>
-                    </div>
-                    <p class="price">$830</p>
-                </li>
+    <main class="main">
+        <div class="content">
+            <div class="contentLeft">
+                <h5>票種</h5>
+                <ul class="ticketType">
+                    <li class="adult">
+                        <div>
+                            <p>成人票(18歲以上)</p>
+                            <p>Only for those aged 18 and above</p>
+                        </div>
+                        <p class="price">$830</p>
+                    </li>
 
-                <li class="student">
-                    <div>
-                        <p>學生票(12歲以上)</p>
-                        <p>Only applicable to students over 12 years old and holding a student ID card</p>
-                    </div>
-                    <p class="price">$600</p>
+                    <li class="student">
+                        <div>
+                            <p>學生票(12歲以上)</p>
+                            <p>Only applicable to students over 12 years old and holding a student ID card</p>
+                        </div>
+                        <p class="price">$600</p>
 
-                <li class="child">
-                    <div>
-                        <p>兒童票(3歲以上)</p>
-                        <p>Limited to 3-11 years old. Children under 3 years old can enter for free and must be
-                            accompanied by their parents.</p>
-                    </div>
-                    <p class="price">$310</p>
+                    <li class="child">
+                        <div>
+                            <p>兒童票(3歲以上)</p>
+                            <p>Limited to 3-11 years old. Children under 3 years old can enter for free and must be
+                                accompanied by their parents.</p>
+                        </div>
+                        <p class="price">$310</p>
 
-                <li class="preferential">
-                    <div>
-                        <p>優待票(65歲以上長者及身心障礙者)</p>
-                        <p>Applicable only to people with a disability certificate, one person accompanying the person
-                            with a disability, pregnant women, and seniors over 65 years old.</p>
-                    </div>
-                    <p class="price">$310</p>
-
-            </ul>
+                    <li class="preferential">
+                        <div>
+                            <p>優待票(65歲以上長者及身心障礙者)</p>
+                            <p>Applicable only to people with a disability certificate, one person accompanying the
+                                person
+                                with a disability, pregnant women, and seniors over 65 years old.</p>
+                        </div>
+                        <p class="price">$310</p>
+            </div>
+            <div class="contentRight">
+                <button class="buyTickets">點我購買</button>
+            </div>
         </div>
-        <button class="buyTickets">點我購買</button>
+    </main>
 
     </div>
-    <div class="process">
-        <div class="processCarousel">
-            <div class="processLeft">我是輪播圖(上)</div>
-            <div class="processRight">我是輪播圖(下)</div>
+    <div class=" process">
+        <div class="flexslider">
+            <ul class="slides">
+                <li><img src="./img/buy2.jpg"></li>
+                <li><img src="./img/buy3.jpg"></li>
+                <li><img src="./img/buy4.jpg"></li>
+                <li><img src="./img/buy5.jpg"></li>
+                <li><img src="./img/buy6.jpg"></li>
+            </ul>
+            <div class="prev">＜</div>
+            <div class="next">＞</div>
         </div>
+
         <p>購票流程說明</p>
     </div>
     </div>
@@ -166,7 +185,7 @@
             <div class="footerLeft">
                 <ul>
                     <li>
-                        <img class="ftBottomLOGO" src="./img/魟魚logo-上.png">
+                        <img class="ftBottomLOGO" src="./img/LOGOfooter.png">
                     </li>
                     <li>
                         <p>
