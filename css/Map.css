@@ -11,7 +11,7 @@
 }
 
 .whale {
-    width: 100%;
+    width: 1265px;
     height: 130vh;
     background-image: url("../img/whaleBackground.gif");
     background-repeat: no-repeat;
@@ -24,9 +24,8 @@
     font-size: 170px;
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 100px;
+    left: 250px;
     white-space: nowrap;
 }
 
@@ -35,26 +34,29 @@
     display: flex;
     justify-content: center;
     padding: 50px;
+    width: 1265px;
 }
 
 .topBlock img {
-    width: 70%;
+    width: 800px;
 }
 
 .bottomBlock {
     display: flex;
     justify-content: center;
     padding: 50px;
+    width: 1265px;
 }
 
 .bottomBlock img {
-    width: 70%;
+    width: 800px;
 }
 
 /*=========園內區域=========*/
 .area {
     background-image: url("../img/jellyFishBG.gif");
     background-size: cover;
+    width: 1265px;
 }
 
 
@@ -167,6 +169,7 @@
     text-align: center;
     display: block;
     padding-bottom: 40px;
+    width: 1265px;
 }
 
 .businessHours h4 {

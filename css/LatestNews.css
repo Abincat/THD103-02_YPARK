@@ -16,7 +16,8 @@
 .navbar {
     background-image: url("../img/news.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 1265px;
+    width: 1265px;
     height: 100%;
     background-attachment: fixed;
 

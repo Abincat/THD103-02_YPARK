@@ -2,7 +2,7 @@
 
 
 footer {
-    width: 100%;
+    width: 1265px;
     background-color: rgb(51, 65, 123);
     font-family: 'Noto Sans TC', sans-serif;
     color: white;
@@ -43,7 +43,6 @@ footer {
 .footerRight {
     width: 75%;
     align-items: center;
-    justify-content: center;
     justify-content: space-around;
     padding-top: 50px;
 }

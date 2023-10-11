@@ -9,6 +9,7 @@
     background-image: url("../img/aboutUsBGlong.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    width: 1265px;
 }
 
 
@@ -240,7 +241,7 @@
     background-image: url("../img/aboutUsBottom.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 1265px;
     height: 100vh;
     bottom: 0;
     display: flex;

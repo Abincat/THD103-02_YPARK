@@ -2,7 +2,7 @@
 
 
 header {
-    width: 100%;
+    width: 1265px;
     background-color: rgb(51, 65, 123);
     position: sticky;
     z-index: 12;
@@ -26,7 +26,7 @@ header {
     border: 1px solid yellow;
 } */
 
-ul li {
+.hdNavbar ul li {
     display: inline-block;
 }
 
@@ -44,7 +44,7 @@ ul li a p.en_list {
     font-size: 10px;
 }
 
-ul {
+.hdNavbar ul {
     width: 60%;
     margin: auto;
     display: flex;

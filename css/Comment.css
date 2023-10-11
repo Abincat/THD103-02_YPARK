@@ -13,7 +13,7 @@ body {
     background-image: url("../img/EcologyBG.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 1265px;
     height: 100vh;
     background-color: rgb(10, 35, 59);
     z-index: 1;
@@ -250,6 +250,7 @@ body {
     justify-content: center;
     text-align: center;
     font-weight: bold;
+    width: 1265px;
 }
 
 .messageFirstRow p {
@@ -264,6 +265,7 @@ body {
     justify-content: center;
     text-align: center;
     font-weight: bold;
+    width: 1265px;
 }
 
 .messageSecondRow p {

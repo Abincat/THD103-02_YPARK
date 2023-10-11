@@ -12,37 +12,22 @@
 
 .containerPic {
     display: flex;
+    width: 1265px;
 }
 
 .posterRestaurant,
 .posterGiftShop {
-    width: 50%;
+    width: 632.5px;
     height: 1000px;
-}
-
-.posterRestaurantOcclusion {
-    position: absolute;
-    width: 50%;
-    height: 1000px;
-    background-color: white;
-    opacity: 0.4;
-}
-
-.posterGiftShopOcclusion {
-    position: absolute;
-    width: 50%;
-    height: 1000px;
-    background-color: white;
-    opacity: 0.4;
 }
 
 .posterRestaurant img {
-    width: 100%;
+    width: 632.5px;
     height: 100%;
 }
 
 .posterGiftShop img {
-    width: 100%;
+    width: 632.5px;
     height: 100%;
 }
 
@@ -65,6 +50,23 @@
     color: white;
 }
 
+/*=========遮罩=========*/
+.posterRestaurantOcclusion {
+    position: absolute;
+    width: 632.5px;
+    height: 1000px;
+    background-color: white;
+    opacity: 0.4;
+}
+
+.posterGiftShopOcclusion {
+    position: absolute;
+    width: 632.5px;
+    height: 1000px;
+    background-color: white;
+    opacity: 0.4;
+}
+
 .posterGiftShop p {
     font-family: 'Noto Sans TC', sans-serif;
     color: rgb(255, 255, 255);
@@ -85,6 +87,8 @@
     line-height: 1.5em;
     padding-left: 10px;
 }
+
+
 
 /*=========企鵝=========*/
 .penguin {
