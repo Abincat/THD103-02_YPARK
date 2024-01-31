@@ -67,11 +67,11 @@
 /*=========定位物件=========*/
 
 .position {
-    /* border: 5px solid red; */
-    width: 1265px;
-    position: absolute;
-    top: 70%;
-    height: 1360vh;
+  /* border: 2px solid red; */
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  height: 1100vh;
 }
 
 .catDiver {
@@ -98,12 +98,11 @@
 }
 
 .positionBottom {
-    /* border: 5px solid rgb(242, 61, 179); */
-    width: 100%;
-    position: absolute;
-    top: 1500vh;
-    height: 1030vh;
-
+  /* border: 3px solid rgb(242, 61, 179); */
+  width: 100%;
+  position: absolute;
+  top: 1200vh;
+  height: 880vh;
 }
 
 .submarine {
@@ -115,15 +114,15 @@
 }
 
 .pngwing {
-    position: sticky;
-    width: 300px;
-    opacity: 0.7;
-    top: 420px;
-    z-index: 2;
-    right: 560px;
-    overflow: hidden;
-    animation: swing 4s infinite;
-    transform-origin: 0% 0%;
+  position: sticky;
+  width: 300px;
+  opacity: 0.7;
+  top: 50%;
+  z-index: 2;
+  left: 20%;
+  overflow: hidden;
+  animation: swing 4s infinite;
+  transform-origin: 0% 0%;
 }
 
 @keyframes swing {
